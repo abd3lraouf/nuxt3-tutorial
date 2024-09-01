@@ -1,0 +1,8 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00331e",
+    "titleBar.activeBackground": "#00331e",
+    "titleBar.activeForeground": "#FFFFFF"
+  },
+  "css.customData": [".vscode/tailwind.json"]
+}
