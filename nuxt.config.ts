@@ -8,7 +8,12 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
-  modules: ["@pinia/nuxt", "@nuxtjs/google-fonts", "@nuxt/ui"],
+  modules: [
+    "@pinia/nuxt",
+    "@nuxtjs/google-fonts",
+    "@nuxt/ui",
+    "@nuxtjs/tailwindcss",
+  ],
   googleFonts: {
     families: {
       Roboto: true,
