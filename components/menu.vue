@@ -1,3 +1,4 @@
+import { NuxtLink } from '../.nuxt/components';
 <template>
   <nav class="font-mono">
     <ul class="flex space-x-4">
@@ -6,6 +7,9 @@
       </li>
       <li>
         <NuxtLink class="link" to="/about">About</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink class="link" to="/projects">Projects</NuxtLink>
       </li>
     </ul>
   </nav>
