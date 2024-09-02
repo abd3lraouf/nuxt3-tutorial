@@ -20,15 +20,18 @@
       />
     </div>
     <div v-else>
-      <Project
-        v-for="project in projects"
-        :key="project.id"
-        :name="project.name"
-        :description="project.description"
-        :url="project.html_url"
-        :topics="project.topics"
-        :license="project.license?.name"
-      />
+      <ul class="grid grid-cols-2 gap-4">
+        <li v-for="project in projects">
+          <Project
+            :key="project.id"
+            :name="project.name"
+            :description="project.description"
+            :url="project.html_url"
+            :topics="project.topics"
+            :license="project.license?.name"
+          />
+        </li>
+      </ul>
     </div>
   </div>
 </template>
